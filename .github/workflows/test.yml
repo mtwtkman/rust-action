@@ -1,0 +1,10 @@
+on: [push]
+jobs:
+  please-works-fine:
+    runs-on: ubuntu-latest
+    naem: Do check
+    steps:
+      - name: Use my action
+        uses: mtwtkman/rust-action@master
+      - name: Check Rust compiler version
+        run: echo `rustc --version`
