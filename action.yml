@@ -1,0 +1,5 @@
+name: 'Rust Action'
+description: 'Prepare simple Rust sandbox'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
