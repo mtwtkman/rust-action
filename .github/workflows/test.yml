@@ -2,7 +2,7 @@ on: [push]
 jobs:
   please-works-fine:
     runs-on: ubuntu-latest
-    naem: Do check
+    name: Do check
     steps:
       - name: Use my action
         uses: mtwtkman/rust-action@master
